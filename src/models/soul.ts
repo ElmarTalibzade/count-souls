@@ -1,4 +1,4 @@
 export default interface Soul {
-	name: string;
-	value: number;
+  name: string;
+  value: number;
 }

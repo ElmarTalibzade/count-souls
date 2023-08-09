@@ -33,6 +33,7 @@
   {#each soulCalculations as soul, i}
     <div class="grow border border-solid rounded-lg p-3 m-1">
       <div class="mb-1 text-center text-base">{soul.definition.name}</div>
+      <div class="mb-1 text-center text-xs">{soul.definition.value}</div>
       <div class="flex items-center justify-between">
         <button
           on:click={() => decrement(i)}

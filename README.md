@@ -9,3 +9,4 @@ Supports:
 - Dark Souls II
 - Dark Souls III
 - Elden Ring
+- Bloodborne

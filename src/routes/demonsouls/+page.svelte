@@ -1,6 +1,6 @@
 <script lang="ts">
   import Calculator from '../../components/common/calculator.svelte';
-  import type Soul from 'models/soul';
+  import type Soul from 'models/soulDefinition';
 
   const souls: Soul[] = [
     { name: 'Unknown Warrior Soul', value: 200 },
@@ -11,4 +11,4 @@
 
 <h1>Demon Souls + Remake</h1>
 
-<Calculator {souls} />
+<Calculator soulDefinitions={souls} />

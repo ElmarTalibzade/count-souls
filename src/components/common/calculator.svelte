@@ -49,6 +49,6 @@
   {/each}
 </div>
 
-<div>
+<div class="text-xl">
   Total: {soulsTotal.toLocaleString()}
 </div>

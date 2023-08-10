@@ -3,7 +3,5 @@
   import Header from '../components/common/header.svelte';
 </script>
 
-<div class="p-2">
-  <Header />
-  <slot />
-</div>
+<Header />
+<slot />

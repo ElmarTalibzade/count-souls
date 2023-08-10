@@ -35,7 +35,7 @@
 </script>
 
 <div class="flex flex-col">
-  <div class="grid grid-cols-2 gap-1">
+  <div class="grid grid-cols-2 gap-1 p-1">
     {#each soulCalculations as soul, i}
       <div class="border border-solid rounded-lg p-3">
         <div class="mb-1 text-center text-base">{soul.definition.name}</div>
@@ -55,7 +55,7 @@
     {/each}
   </div>
 
-  <div class="mt-1 h-20 w-full bg-white left-0 bottom-0 sticky border">
+  <div class="h-20 w-full bg-white left-0 bottom-0 sticky border">
     <div class="text-xl">
       Total: {soulsTotal.toLocaleString()}
     </div>

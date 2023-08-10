@@ -3,6 +3,6 @@
   <li><a href="/ds1">Dark Souls I + Remastered</a></li>
   <li>Dark Souls II</li>
   <li>Dark Souls III</li>
-  <li>Bloodborne</li>
+  <li><a href="/bb">Bloodborne</a></li>
   <li>Elden Ring</li>
 </ul>

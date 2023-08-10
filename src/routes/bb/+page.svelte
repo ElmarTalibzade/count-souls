@@ -20,6 +20,8 @@
   ];
 </script>
 
-<h1>Bloodborne</h1>
+<svelte:head>
+  <title>Bloodborne</title>
+</svelte:head>
 
 <Calculator soulDefinitions={souls} />

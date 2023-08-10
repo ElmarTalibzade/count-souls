@@ -55,7 +55,7 @@
     {/each}
   </div>
 
-  <div class="absolute bottom-0 index-x mt-1 h-20 border">
+  <div class="mt-1 h-20 w-full bg-white left-0 bottom-0 sticky border">
     <div class="text-xl">
       Total: {soulsTotal.toLocaleString()}
     </div>

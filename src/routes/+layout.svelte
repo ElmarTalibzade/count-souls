@@ -3,5 +3,6 @@
   import Navbar from '../components/common/navbar.svelte';
 </script>
 
+<div class="fixed" />
 <Navbar />
 <slot />

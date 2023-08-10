@@ -34,30 +34,28 @@
   }
 </script>
 
-<div class="flex flex-col">
-  <div class="grid grid-cols-2 gap-1 p-1">
-    {#each soulCalculations as soul, i}
-      <div class="border border-solid rounded-lg p-3">
-        <div class="mb-1 text-center text-base">{soul.definition.name}</div>
-        <div class="mb-1 text-center text-xs">{soul.definition.value.toLocaleString()}</div>
-        <div class="flex items-center justify-between">
-          <button
-            on:click={() => decrement(i)}
-            class="bg-orange-dark rounded-lg p-4 shadow-md text-base w-20">-</button
-          >
-          <div class="text-base w-20 text-center">{soul.quantity.toLocaleString()}</div>
-          <button
-            on:click={() => increment(i)}
-            class="bg-orange-dark rounded-lg p-4 shadow-md text-base w-20">+</button
-          >
-        </div>
+<div class="grid grid-cols-2 gap-1 p-1">
+  {#each soulCalculations as soul, i}
+    <div class="border border-solid rounded-lg p-3">
+      <div class="mb-1 text-center text-base">{soul.definition.name}</div>
+      <div class="mb-1 text-center text-xs">{soul.definition.value.toLocaleString()}</div>
+      <div class="flex items-center justify-between">
+        <button
+          on:click={() => decrement(i)}
+          class="bg-orange-dark rounded-lg p-4 shadow-md text-base w-20">-</button
+        >
+        <div class="text-base w-20 text-center">{soul.quantity.toLocaleString()}</div>
+        <button
+          on:click={() => increment(i)}
+          class="bg-orange-dark rounded-lg p-4 shadow-md text-base w-20">+</button
+        >
       </div>
-    {/each}
-  </div>
-
-  <div class="h-20 w-full bg-white left-0 bottom-0 sticky border">
-    <div class="text-xl">
-      Total: {soulsTotal.toLocaleString()}
     </div>
+  {/each}
+</div>
+
+<div class="h-20 w-full bg-white left-0 bottom-0 sticky border">
+  <div class="text-xl">
+    Total: {soulsTotal.toLocaleString()}
   </div>
 </div>

@@ -58,8 +58,11 @@
   {/each}
 </div>
 
-<div class="h-{soulSummaryHeight} w-full bg-white inset-x-0 bottom-0 fixed border">
-  <div class="text-xl">
-    Total: {soulsTotal.toLocaleString()}
+<div
+  class="h-{soulSummaryHeight} w-full bg-white inset-x-0 bottom-0 fixed border p-1 flex flex-col justify-center items-center"
+>
+  <p class="text-xl uppercase">Total</p>
+  <div class="text-7xl">
+    {soulsTotal.toLocaleString()}
   </div>
 </div>

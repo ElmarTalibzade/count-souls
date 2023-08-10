@@ -2,8 +2,6 @@
   import type SoulCalculation from 'models/soulCalculation';
   import type SoulDefinition from 'models/soulDefinition';
 
-  const soulSummaryHeight = 32;
-
   export let soulDefinitions: SoulDefinition[];
 
   let soulCalculations: SoulCalculation[];
@@ -36,7 +34,7 @@
   }
 </script>
 
-<div class="grid grid-cols-2 gap-1 p-1 mb-{soulSummaryHeight}">
+<div class="grid grid-cols-2 gap-1 p-1 mb-32">
   {#each soulCalculations as soul, i}
     <div class="flex flex-col justify-between border border-solid rounded-lg p-3">
       <div>
@@ -59,7 +57,7 @@
 </div>
 
 <div
-  class="h-{soulSummaryHeight} w-full bg-white inset-x-0 bottom-0 fixed border p-1 flex flex-col justify-center items-center"
+  class="h-32 w-full bg-white inset-x-0 bottom-0 fixed border p-1 flex flex-col justify-center items-center"
 >
   <p class="text-xl uppercase">Total</p>
   <div class="text-7xl">

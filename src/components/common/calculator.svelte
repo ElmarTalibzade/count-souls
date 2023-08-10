@@ -38,10 +38,12 @@
 
 <div class="grid grid-cols-2 gap-1 p-1 mb-{soulSummaryHeight}">
   {#each soulCalculations as soul, i}
-    <div class="border border-solid rounded-lg p-3">
-      <div class="mb-1 text-center text-base">{soul.definition.name}</div>
-      <div class="mb-1 text-center text-xs">{soul.definition.value.toLocaleString()}</div>
-      <div class="flex items-center justify-between">
+    <div class="flex flex-col justify-between border border-solid rounded-lg p-3">
+      <div>
+        <div class="mb-1 text-center text-base">{soul.definition.name}</div>
+        <div class="mb-1 text-center text-xs">{soul.definition.value.toLocaleString()}</div>
+      </div>
+      <div class="flex items-center">
         <button
           on:click={() => decrement(i)}
           class="bg-orange-dark rounded-lg p-4 shadow-md text-base w-20">-</button

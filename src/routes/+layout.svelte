@@ -1,7 +1,7 @@
 <script lang="ts">
   import '../app.css';
-  import Header from '../components/common/header.svelte';
+  import Navbar from '../components/common/navbar.svelte';
 </script>
 
-<Header />
+<Navbar />
 <slot />

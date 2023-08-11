@@ -33,7 +33,7 @@
       ><img
         class="w-36 border-0"
         src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-        alt="Buy Me a Coffee at ko-fi.com"
+        alt="Support me at ko-fi.com"
       /></a
     >
   </div>

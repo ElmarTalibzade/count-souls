@@ -4,4 +4,6 @@
 </script>
 
 <Navbar />
-<slot />
+<div class="max-w-8x1 mx-auto md:px-96">
+  <slot />
+</div>

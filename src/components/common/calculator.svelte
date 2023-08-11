@@ -41,14 +41,14 @@
 
 <p class="m-1 text-center text-xl font-bold">{heading}</p>
 
-<div class="mb-32 grid grid-cols-2 gap-1 p-1">
+<div class="mb-32 grid grid-cols-2 gap-1 p-1 md:mb-0 md:px-64">
   {#each soulCalculations as soul, i}
     <div class="flex flex-col justify-between rounded-lg border border-solid p-3">
       <div>
         <div class="mb-1 text-center text-base">{soul.definition.name}</div>
         <div class="mb-1 text-center text-xs">{soul.definition.value.toLocaleString()}</div>
       </div>
-      <div class="flex items-center">
+      <div class="flex items-center justify-between">
         <button
           on:click={() => decrement(i)}
           class="bg-orange-dark w-20 rounded-lg p-4 text-base shadow-md">-</button

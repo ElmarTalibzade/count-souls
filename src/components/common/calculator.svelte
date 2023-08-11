@@ -3,6 +3,7 @@
   import type SoulDefinition from 'models/soulDefinition';
 
   export let soulDefinitions: SoulDefinition[];
+  export let heading: string;
 
   let soulCalculations: SoulCalculation[];
   reset();
@@ -33,6 +34,12 @@
     }));
   }
 </script>
+
+<svelte:head>
+  <title>{heading}</title>
+</svelte:head>
+
+<p class="text-bold text-center text-base">{heading}</p>
 
 <div class="mb-32 grid grid-cols-2 gap-1 p-1">
   {#each soulCalculations as soul, i}

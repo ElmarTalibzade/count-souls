@@ -17,8 +17,4 @@
   ];
 </script>
 
-<svelte:head>
-  <title>Dark Souls 2</title>
-</svelte:head>
-
-<Calculator soulDefinitions={souls} />
+<Calculator heading="Dark Souls 2" soulDefinitions={souls} />

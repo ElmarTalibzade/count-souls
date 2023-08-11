@@ -9,8 +9,4 @@
   ];
 </script>
 
-<svelte:head>
-  <title>Sekiro</title>
-</svelte:head>
-
-<Calculator soulDefinitions={souls} />
+<Calculator heading="Sekiro" soulDefinitions={souls} />

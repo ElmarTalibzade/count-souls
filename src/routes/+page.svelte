@@ -4,5 +4,5 @@
     If you ever found yourself whipping out a calculator to determine how many souls you need to
     use, then this is a right place for you.
   </p>
-  <p>Just select a game to get counting!</p>
+  <p>Just click the menu above to get started!</p>
 </div>

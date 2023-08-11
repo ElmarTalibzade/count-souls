@@ -34,9 +34,9 @@
   }
 </script>
 
-<div class="grid grid-cols-2 gap-1 p-1 mb-32">
+<div class="mb-32 grid grid-cols-2 gap-1 p-1">
   {#each soulCalculations as soul, i}
-    <div class="flex flex-col justify-between border border-solid rounded-lg p-3">
+    <div class="flex flex-col justify-between rounded-lg border border-solid p-3">
       <div>
         <div class="mb-1 text-center text-base">{soul.definition.name}</div>
         <div class="mb-1 text-center text-xs">{soul.definition.value.toLocaleString()}</div>
@@ -44,12 +44,12 @@
       <div class="flex items-center">
         <button
           on:click={() => decrement(i)}
-          class="bg-orange-dark rounded-lg p-4 shadow-md text-base w-20">-</button
+          class="bg-orange-dark w-20 rounded-lg p-4 text-base shadow-md">-</button
         >
-        <div class="text-base w-20 text-center">{soul.quantity.toLocaleString()}</div>
+        <div class="w-20 text-center text-base">{soul.quantity.toLocaleString()}</div>
         <button
           on:click={() => increment(i)}
-          class="bg-orange-dark rounded-lg p-4 shadow-md text-base w-20">+</button
+          class="bg-orange-dark w-20 rounded-lg p-4 text-base shadow-md">+</button
         >
       </div>
     </div>
@@ -57,7 +57,7 @@
 </div>
 
 <div
-  class="h-32 w-full bg-white inset-x-0 bottom-0 fixed border p-1 flex flex-col justify-center items-center"
+  class="fixed inset-x-0 bottom-0 flex h-32 w-full flex-col items-center justify-center border bg-white p-1"
 >
   <p class="text-xl uppercase">Total</p>
   <div class="text-7xl">

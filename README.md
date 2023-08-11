@@ -8,5 +8,6 @@ Supports:
 - Dark Souls Remastered
 - Dark Souls II
 - Dark Souls III
-- Elden Ring
+- Sekiro
 - Bloodborne
+- Elden Ring

@@ -39,7 +39,7 @@
   <title>{heading}</title>
 </svelte:head>
 
-<p class="text-bold text-center text-base">{heading}</p>
+<p class="m-1 text-center text-xl font-bold">{heading}</p>
 
 <div class="mb-32 grid grid-cols-2 gap-1 p-1">
   {#each soulCalculations as soul, i}

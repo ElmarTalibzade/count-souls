@@ -1,7 +1,10 @@
 <script lang="ts">
+  import { afterNavigate } from '$app/navigation';
   import menu from '../../assets/icon_menu.svg';
 
   let menuOpen: boolean = false;
+
+  afterNavigate(() => (menuOpen = false));
 
   function toggleMenu() {
     menuOpen = !menuOpen;

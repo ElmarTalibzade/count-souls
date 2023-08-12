@@ -28,4 +28,4 @@
   ];
 </script>
 
-<Calculator heading="Dark Souls 3" soulDefinitions={souls} />
+<Calculator heading="Dark Souls III" soulDefinitions={souls} />

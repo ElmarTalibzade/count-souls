@@ -16,4 +16,4 @@
   ];
 </script>
 
-<Calculator heading="Dark Souls 1 + Remastered" soulDefinitions={souls} />
+<Calculator heading="Dark Souls I + Remastered" soulDefinitions={souls} />

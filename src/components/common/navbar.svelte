@@ -29,7 +29,7 @@
       <a href="/ds2">Dark Souls II</a>
       <a href="/ds3">Dark Souls III</a>
       <a href="/bb">Bloodborne</a>
-      <a href="/sk">Sekiro</a>
+      <a href="/sk">Sekiro: Shadows Die Twice</a>
       <a href="/er">Elden Ring</a>
     </div>
 

@@ -9,4 +9,4 @@
   ];
 </script>
 
-<Calculator heading="Sekiro" soulDefinitions={souls} />
+<Calculator heading="Sekiro: Shadows Die Twice" soulDefinitions={souls} />

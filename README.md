@@ -2,7 +2,7 @@
 
 ![](./screenshots/img_site_1.png)
 
-A simple web app to quickly calculate the number of souls that you have in your inventory.
+A simple web app to quickly calculate the number of souls you have in your inventory.
 
 Supports:
 
@@ -43,6 +43,6 @@ For a full list of commands, see [package.json](./package.json)
 
 ## Support
 
-You can press on that pretty looking button below, but I will always settle for a thank you! :)
+You can press that pretty-looking button below, but I will always settle for a thank you! :)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C8O3SFV)

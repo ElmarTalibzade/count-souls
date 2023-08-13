@@ -26,6 +26,8 @@ Supports:
 - [TypeScript](https://www.typescriptlang.org/)
 - and a little bit of :heart: for Souls
 
+The project is hosted by [Cloudflare Pages](https://pages.cloudflare.com/) and deploys the latest changes in the `main` branch to [countsouls.com](https://countsouls.com/)
+
 ## Getting up and running
 
 Clone the project, and run good old:

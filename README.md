@@ -12,10 +12,10 @@ A simple web app to quickly calculate the number of souls you have in your inven
 Supports:
 
 - Demon Souls + Remake
-- Dark Souls Remastered
+- Dark Souls I + Remastered
 - Dark Souls II
 - Dark Souls III
-- Sekiro
+- Sekiro: Shadows Die Twice
 - Bloodborne
 - Elden Ring
 

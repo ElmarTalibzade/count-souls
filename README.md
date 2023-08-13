@@ -1,6 +1,11 @@
 # Count Souls
 
-![](./screenshots/img_site_1.png)
+<details>
+  <summary>Screenshot (click to reveal)</summary>
+  
+  ![](./screenshots/img_site_1.png)
+
+</details>
 
 A simple web app to quickly calculate the number of souls you have in your inventory.
 
